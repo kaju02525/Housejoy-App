@@ -1,0 +1,4 @@
+include ':carouselbanner'
+include ':smartlocationgps'
+include ':app'
+rootProject.name = "Housejoy"

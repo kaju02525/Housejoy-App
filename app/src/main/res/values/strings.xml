@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Housejoy</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="enquire_now">Enquire Now</string>
+    <string name="attibele">Attibele</string>
+    <string name="our_projects">Our Projects</string>
+    <string name="config">Config</string>
+    <string name="elevation">Elevation</string>
+    <string name="area">Area</string>
+    <string name="set_location">Set Location</string>
+</resources>

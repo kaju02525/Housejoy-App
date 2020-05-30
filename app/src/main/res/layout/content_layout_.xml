@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="@dimen/_2sdp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_projectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#403f3f"
+            android:transitionName="tv_projectName"
+            android:textSize="@dimen/_17ssp"
+            tools:text="Project Name" />
+
+
+        <TextView
+            android:id="@+id/tv_att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attibele"
+            android:transitionName="tv_att"
+            android:textColor="#969595"
+            android:textSize="@dimen/_11ssp"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:weightSum="6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/area"
+                    android:textColor="#969595"
+                    android:textSize="@dimen/_10ssp"/>
+
+                <TextView
+                    android:id="@+id/tv_sqft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_2sdp"
+                    tools:text="1522 sqft"
+                    android:transitionName="tv_sqft"
+                    android:textStyle="bold"
+                    android:textColor="#03A9F4"
+                    android:textSize="@dimen/_12ssp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#344"/>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/config"
+                    android:textColor="#969595"
+                    android:textSize="@dimen/_10ssp"/>
+
+                <TextView
+                    android:id="@+id/tv_config"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_2sdp"
+                    tools:text="2 BHK"
+                    android:transitionName="tv_config"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="#03A9F4"
+                    android:textSize="@dimen/_12ssp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#344"/>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elevation"
+                    android:textColor="#969595"
+                    android:textSize="@dimen/_10ssp"/>
+
+                <TextView
+                    android:id="@+id/tv_elevation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_2sdp"
+                    tools:text="Ground +1"
+                    android:textStyle="bold"
+                    android:transitionName="tv_elevation"
+                    android:textColor="#03A9F4"
+                    android:textSize="@dimen/_12ssp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
